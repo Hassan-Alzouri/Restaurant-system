@@ -63,19 +63,6 @@ Restaurant-system/
 3. Update the connection credentials in `DatabaseAccess.java` to match your local MySQL setup.
 4. Open the `app/` project in NetBeans and run it (`Application.java` is the entry point).
 
-## Team
-
-Built as a group project for OOP2, second semester 2024.
-
-| Member | Responsibility |
-|---|---|
-| **Hassan Mohammed Alzourei** (Team Lead) | Dashboard, ArrayList, and Database Access classes; project supervision |
-| Abdulrahman Mohammed Al-mejna | Employee, Customer View, Reports, Logout, Login forms, and UI theming |
-| Ahmed Al-Shaikh Mohammed | Report generation |
-| Ali Alkhars | Menu view, UML design |
-| Abdullah Mohammed Al-Battat | Customer registration |
-| Baqer Abdullah Alhaddad | Documentation and UML |
-
 ## Design Notes
 
 Full entity-relationship modeling and relational schema mapping were done ahead of implementation (see `/docs`), covering Employee, Account, Customer, Invoice, Sales_Report, Menu, and the Take relation connecting orders to menu items. Database access uses JDBC with prepared statements to guard against SQL injection.
