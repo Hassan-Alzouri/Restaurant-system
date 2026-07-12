@@ -57,7 +57,7 @@ Restaurant-system/
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/Hassan-Alzouri/Restaurant-system.git
+   git clone https://github.com/Hassan-Alzouri/restaurant-system.git
    ```
 2. Create a MySQL database and run `Database/DatabaseProject.sql` to build the schema.
 3. Update the connection credentials in `DatabaseAccess.java` to match your local MySQL setup.
